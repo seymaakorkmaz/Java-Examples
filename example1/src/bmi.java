@@ -19,7 +19,7 @@ public class bmi {
 		double bmi = weight / (height * height);
 		System.out.println("BMI = "+ bmi);	
 		
-		if (bmi < 18.5) {
+		if ((bmi<18.5) && (bmi>0)) {
 			System.out.println("weak");
 		}else if((bmi>=18.5) && (bmi <= 25)) {
 			System.out.println("normal");
@@ -27,6 +27,8 @@ public class bmi {
 			System.out.println("overweight");
 		}else if(bmi >= 30) {
 			System.out.println("obese");
+		}else{
+			System.out.println("You entered wrong data");
 		}
 	} 
 }
