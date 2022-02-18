@@ -18,7 +18,7 @@ public class bmi {
 		// BMI >= 30 obese
 		double bmi = weight / (height * height);
 		System.out.println("BMI = "+ bmi);	
-		//aaaaaaaaaaaaaaaaaaaaa
+		
 		if (bmi < 18.5) {
 			System.out.println("weak");
 		}else if((bmi>=18.5) && (bmi <= 25)) {
