@@ -19,6 +19,20 @@ public class Main {
 		
 		gasolineCar1.setFuelStatus(70);
 		System.out.println(gasolineCar1.getFuelStatus());
+		
+		ElectricCar electricCar2;
+		electricCar2 = electricCar1 ;
+		
+		if(electricCar2 == electricCar1)
+			System.out.println("They point to the same region in memory.");
+		else 
+			System.out.println("They point to the different region in memory.");
+		
+		
+		electricCar2.setColor("White");
+		System.out.println("electricCar1's color : "+electricCar1.getColor()+", electricCar2's color : "+electricCar2.getColor());
+		//A change in one affects the other.
+		
 	}
 
 }
