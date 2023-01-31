@@ -1,2 +1,2 @@
-# Java-Examples
-### My basic Java OOP exercises
+### Java Examples
+- My basic Java OOP exercises.
